@@ -3,7 +3,7 @@
        Minhas leituras
     </h2>
     <span class="linha-destaque linha-destaque--grande"></span>   
+    @for ( genero of generos; track genero) {
+        <app-genero-literario [genero]="genero"></app-genero-literario>
+    }
 </section>
-@for ( genero of generos; track genero) {
-    <app-genero-literario [genero]="genero"></app-genero-literario>
-}
