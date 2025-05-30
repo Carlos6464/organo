@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 import { CabecalhoComponent } from './components/cabecalho/cabecalho.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { LivroComponent } from './components/livro/livro.component';
+import { ListaLivrosComponent } from './components/lista-livros/lista-livros.component';
 @Component({
   selector: 'app-root',
-  imports: [CabecalhoComponent, FooterComponent, LivroComponent],
+  imports: [CabecalhoComponent, FooterComponent, ListaLivrosComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
